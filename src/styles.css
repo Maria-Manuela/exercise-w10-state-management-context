@@ -1,41 +1,41 @@
 :root {
-    --background-color-light: #fbff19;
-    --text-color-light: #333;
-    --background-color-dark: #333;
-    --text-color-dark: #fff;
+	--background-color-light: #fbff19;
+	--text-color-light: #333;
+	--background-color-dark: #333;
+	--text-color-dark: #fff;
 }
 
 body {
-    background-color: var(--background-color-light);
-    color: var(--text-color-light);
+	background-color: var(--background-color-light);
+	color: var(--text-color-light);
 }
 
 .App {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 .App.light {
-    background-color: var(--background-color-light);
-    color: var(--text-color-light);
+	background-color: var(--background-color-light);
+	color: var(--text-color-light);
 }
 
 .App.dark {
-    background-color: var(--background-color-dark);
-    color: var(--text-color-dark);
+	background-color: var(--background-color-dark);
+	color: var(--text-color-dark);
 }
 
 button {
-    background-color: var(--background-color-dark);
-    color: var(--text-color-dark);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-inline: auto;
+	background-color: var(--background-color-dark);
+	color: var(--text-color-dark);
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-inline: auto;
 }
 
 .App.dark button {
-    background-color: var(--background-color-light);
-    color: var(--text-color-light);
+	background-color: var(--background-color-light);
+	color: var(--text-color-light);
 }
